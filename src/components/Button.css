@@ -1,0 +1,20 @@
+.button-wrapper {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    flex: 1;
+  }
+  
+  .operator {
+    background-color: rgba(211, 211, 211, 0.548);
+    border-radius: 15px;
+    color: black;
+    margin-top: 10px;
+  }
