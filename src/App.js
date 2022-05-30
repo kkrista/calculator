@@ -34,6 +34,7 @@ class App extends Component {
     return (
       <div className="app">
         <div className="container">
+          <span>Calculator</span>
           <Input input={this.state.input}></Input>
           <div className="row">
             <div className="col-3">
@@ -64,6 +65,30 @@ class App extends Component {
               <Button handleClick={this.addToInput}>-</Button>
             </div>
           </div>
+          {/* This project was coded by
+      <a
+        href="https://www.linkedin.com/in/kristamarikatajisto/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Krista-Mari Katajisto
+      </a>
+      and is
+      <a
+        href="https://github.com/kkrista/calculator"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        open-sourced on GitHub
+      </a>
+      and
+      <a
+        href="https://celebrated-croissant-e3f2c2.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        hosted on Netlify
+      </a> */}
         </div>
       </div>
     );
