@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+body{
+  background:yellow;
+	font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  margin-left: 10px;
+  transform: translate(-50%, -50%);
+  font-size:39px;
+	letter-spacing:0.2em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #ff1f8f,
+						20px 20px #000000;
+}
+
 .app {
   background: radial-gradient(circle at 10% 20%, rgb(255, 12, 253) 0%, rgb(255, 241, 53) 90%);
   background-size: 400% 400%;
@@ -23,9 +46,12 @@
 
 .container {
   display: block;
-  border-radius: 20%;
-  width: 290px;
-  height: 500px;
+  border-radius: 9%;
+  width: 320px;
+  height: 530px;
+  border: lightgray 0.5px solid;
+  padding: 40px;
+  border-style: groove;
 }
 .input {
   padding: 10px;
